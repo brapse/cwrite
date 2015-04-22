@@ -1,6 +1,6 @@
 Results
 =======
-- running with allocations
-BenchmarkUnsafe-4           2000            968585 ns/op
-BenchmarkLocked-4            100          14259806 ns/op
-BenchmarkChanneled-4         200           9677494 ns/op
+BenchmarkUnsafe-4            500           4239636 ns/op
+BenchmarkLocked-4             50          35497691 ns/op
+BenchmarkLockSwap-4          100          25712943 ns/op
+BenchmarkSwap-4              500           4282290 ns/op
